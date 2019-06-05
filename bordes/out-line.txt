@@ -1,0 +1,2 @@
+sirve para saber la posicion de las cajas , solo es de ayuda 
+mostrara los boders sin perjudicar el ezquema

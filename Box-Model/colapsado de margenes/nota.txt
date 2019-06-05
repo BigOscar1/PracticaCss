@@ -1,0 +1,4 @@
+siempre dirigir el margen hacia un lado,
+
+y el colapsado de margen es que se debe colocar un margin en body xq el h1 tiene uno por defecto xq caso contrario 
+tendra un espacio con el top.

@@ -1,0 +1,10 @@
+usar siempre enel selector univeral
+
+box-sizing
+como calcula el navegador el tamaño de la caja (lo hara hacia adentro y de esa manera no afectara la maquetacion)
+background-clip
+a que caja se aplica el background
+
+*, *::before *::after {
+    box-sizing: border-box;
+}

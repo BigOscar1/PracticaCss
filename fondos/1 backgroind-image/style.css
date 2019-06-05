@@ -1,0 +1,16 @@
+/* body {
+    background-image: url(https://estaticos.elperiodico.com/resources/jpg/6/8/ciencia-del-universo-1530540262286.jpg);
+    background-repeat: no-repeat;
+} */
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://estaticos.elperiodico.com/resources/jpg/6/8/ciencia-del-universo-1530540262286.jpg);
+    margin: 100px auto;
+    box-shadow: 0 10px 30px -10px #000000;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%'; */
+    /* background-size: contain; */
+    background-size: cover;
+}

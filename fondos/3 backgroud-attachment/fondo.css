@@ -1,0 +1,25 @@
+body {
+    /* padding-bottom: 100em; */
+    background-image: url(https://media.wired.com/photos/5c1ae77ae91b067f6d57dec0/master/pass/Comparison-City-MAIN-ART.jpg);
+    background-attachment: fixed;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /*Solo servira para sacar scroll en celulares*/
+    overflow-x:scroll;
+    overflow-y:hidden;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://estaticos.elperiodico.com/resources/jpg/6/8/ciencia-del-universo-1530540262286.jpg);
+    margin: 100px auto;
+    /* background-color: yellow; */
+    box-shadow: 0 10px 30px -10px #000000;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* background-position: right bottom */
+    background-position: bottom 20px right 20px;
+}

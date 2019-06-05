@@ -1,0 +1,18 @@
+body {
+    font-size: 2.5em;
+}
+
+.box {
+    background: yellow;
+    background-clip: content-box;
+
+    /*Box sizing*/
+    box-sizing: border-box;
+
+    /*Box model*/
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid black;
+    margin: 50px;
+}

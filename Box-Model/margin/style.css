@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {font-size: 2.5em;}
+
+[class^= "box-"] {
+    background: yellow;
+    padding: 50px;
+    width: fit-content;
+}
+
+
+.box-1 {
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 600px;
+    background: lime;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    margin-left: -20px;
+    margin-right: -20px;
+    border: 1px solid red;
+}

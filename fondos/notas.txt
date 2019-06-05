@@ -1,0 +1,35 @@
+background-color
+    background-color: <color>;
+    https://codepen.io/AlvaroFelipe/pen/wmqgMy
+background-image
+    background: url(image.jpg);
+    https://codepen.io/AlvaroFelipe/pen/jzLyWv
+background-repeat
+    repeat | no-repeat | repeat-x | repeat-y
+    https://codepen.io/AlvaroFelipe/pen/bvrgpM
+background-clip (sirve para tener background en cajar)
+    Que parte de la caja es cubierta por el fondo
+    border-box | padding-box | content-box
+    https://codepen.io/AlvaroFelipe/pen/PRKWzO
+background-origin
+    Desde que caja se empieza a dibujar el fondo
+    border-box | padding-box | content-box
+background-size
+    Valores
+    width (height auto)
+    width height
+    contain | cover | auto
+    https://codepen.io/AlvaroFelipe/pen/vRJggm
+background-position
+    x (y se pone en center automaticamente)
+    x y
+    left|center|right <unit> top|center|bottom <unit>
+    https://codepen.io/AlvaroFelipe/pen/yKogor
+background-attachment
+    scroll | fixed | local
+    https://codepen.io/AlvaroFelipe/pen/ZxJLoz
+Background múltiples
+    background-image: url(image1.jpg), url(image2.jpg),url(image3.jpg);
+    https://codepen.io/AlvaroFelipe/pen/gexgjz
+Shorthand background
+    background: image position / size repeat attachment origin clip;

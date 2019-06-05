@@ -1,0 +1,36 @@
+body {
+    padding-bottom: 100em;
+    /* background-image: url(https://media.wired.com/photos/5c1ae77ae91b067f6d57dec0/master/pass/Comparison-City-MAIN-ART.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.box {
+    /* width: 500px;
+    height: 500px;
+    background-image: url(https://estaticos.elperiodico.com/resources/jpg/6/8/ciencia-del-universo-1530540262286.jpg);
+    margin: 100px auto;
+    box-shadow: 0 10px 30px -10px #000000;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom 20px right 20px; */
+}
+
+p {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 2em;
+}
+
+.parallax {
+    padding: 5em 0;
+    background-image: url(https://media.wired.com/photos/5c1ae77ae91b067f6d57dec0/master/pass/Comparison-City-MAIN-ART.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

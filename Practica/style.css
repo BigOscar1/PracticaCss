@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/21/03/55/sunset-2247554_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    /* overflow-x:scroll;
+    overflow-y:hidden; */
+}
+
+.container {
+    width: auto;
+    height: 500px;
+    margin: 100px auto;
+    border-style: none;
+    box-shadow: 0 10px 50px -10px #000000;
+}
+
+.button {
+    margin: -100px auto;
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    border-radius: 50% 50% 0 50%;
+    background-color: red;
+    box-shadow: 0 10px 10px -5px #000000;
+}

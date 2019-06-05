@@ -1,0 +1,16 @@
+*box-shadow
+sombras vertial
+-h-offset
+sombras vertial
+-h-offset
+sombras horizontales
+-blur
+difuminado
+-spread
+cuanto se expande
+-color
+el color
+|
+-inset
+si la sombra esta por adentro o por afuera
+

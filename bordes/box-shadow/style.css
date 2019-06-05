@@ -1,0 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.box {
+    padding-top: 0.1px;
+    width: 100px;
+    height: 100px;
+    background: hsl(10, 90%, 50%);
+    margin: 100px auto;
+    /* border-radius: 50%; */
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.5) inset; */
+
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .8)
+}
