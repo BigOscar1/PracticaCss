@@ -1,0 +1,8 @@
+em = el tamaño de fuente del contexto (Es variable)
+rem = el tamaño de fuente de root (Nunca varia, si se cambia la raiz si)
+
+em varia segun el tamaño del padre
+
+un padding para un boton para que se ajuste al tamaño del texto usarias em
+si necesitas un margen que siempre sea igual, debe ser rem o algunos border raidous
+los borders redondeados que no quieras que se cambien de tamaño usarias rem
