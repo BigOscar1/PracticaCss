@@ -1,0 +1,46 @@
+body {
+    font-size: 2em;
+}
+
+p {
+    /* direction: ltr; */
+    /* text-indent: 2em; */
+    margin: 2em;
+    /* text-align: justify;    sirve para justificar texto pero no es utilizada, se considera una mala practica */
+    line-height: 1.5em;     /*tambien es bueno utilizarlo solo para alinear una linea*/
+}
+
+.decoration {
+    letter-spacing: 1em;
+
+    text-align: center;
+    /* text-decoration-line: line-through;
+    text-decoration-color: rebeccapurple;
+    text-decoration-style: double; */
+    /* text-decoration: underline line-through overline; */
+    text-decoration-color: black;
+    /* color: transparent */
+    text-decoration: underline overline
+}
+
+.text-shadow {
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px 1px 0 red,
+                    -1px -1px 0 red;   /*No usar este metodo xq el bordeo es sucio, mejor realizarlo en svg*/
+}
+
+
+.white-space {
+    text-transform: uppercase;
+    white-space: pre;   /*Respetara los saltos de linea del texto*/
+}
+
+.desbordamiento{
+    height: 160px;
+    width: 160px;
+    margin: 2em auto;
+    border: 2px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

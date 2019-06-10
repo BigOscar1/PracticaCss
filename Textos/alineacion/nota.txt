@@ -1,0 +1,58 @@
+https://workflowy.com/s/TvW.N9CRIfQIUN
+
+*Unidades em y rem
+em: el tamaño de fuente del contexto
+rem: el tamaño de fuente de root
+https://codepen.io/AlvaroFelipe/pen/BrmQO
+*Alineado del texto
+direction
+text-indent
+text-align
+start | end | left | center | right | justify
+text-align-last
+start | end | left | center | right | justify
+line-height --sirve para alinear texto
+vertical-align  --sirve para alinear un texto pero en la caja de texto, igual sirve para colocar iconos o imagenes y alinearlos con el texto
+baseline  | top | middle | bottom
+https://codepen.io/AlvaroFelipe/pen/QmOGYp
+*Flujo del texto
+Letter spacing
+Word spacing
+*Decoracion
+https://codepen.io/AlvaroFelipe/pen/NYwdWj
+text-decoration
+text-decoration-line
+underline | line-through | overline
+text-decoration-color
+text-decoration-style
+solid | dashed | dotted | double
+*text-shadow
+h-offset v-offset blur color
+https://codepen.io/AlvaroFelipe/pen/mxqRJe
+*white-space
+normal
+pre
+nowrap
+no salta de linea
+pre-wrap
+salta de linea y conserva espacios
+pre-line
+salta de línea y no conserva espacios
+*Desbordamiento
+https://codepen.io/AlvaroFelipe/pen/xWPgVe
+word-break
+normal | break-all | keep-all
+word-wrap
+normal | break-word
+text-overflow
+Con overflow
+clip | ellipsis
+*Texto vertical
+writing-mode: vertical-lr;
+text-orientation: upright;
+https://codepen.io/AlvaroFelipe/pen/RMjKjG
+*text-rendering
+auto | optimizeSpeed | optimizeLegibility | geometricPrecision
+*text-transform
+uppercase | lowercase | capitalize | none
+https://codepen.io/AlvaroFelipe/pen/qoVRxB
