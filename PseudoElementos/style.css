@@ -1,0 +1,42 @@
+body {
+    font-size: 2em;
+    margin: 1em;
+}
+
+p:last-child::first-letter {
+    color: red;
+    font-size: 2.3em;
+    margin-right: .1em;
+    float: left;
+    line-height: 1;
+    font-family: serif;
+}
+
+
+h3::before {
+    content: '--';
+}
+
+h3::after {
+    content: '?';
+}
+
+h4::before {
+    content: url(https://img.imagenescool.com/ic/frases/frases_124.jpg);
+    /* content: attr(class); */
+    display: block;
+    font-size: .5em;
+    background-color: rgba(167, 167, 31, 0.3)
+}
+
+h5 {
+    quotes: '\201C' '\201D';
+}
+
+h5::before {
+    content: open-quote;
+}
+
+h5::after {
+    content: close-quote;
+}

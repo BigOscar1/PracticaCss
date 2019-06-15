@@ -1,0 +1,5 @@
+los pseudoelementos funcionan como inline y no en bloque, por tanto no se podran colocar altura, salvo que se los cambie mediante display: block
+
+first-line no aplica a elementos de linea, solo aplica a elementos de bloque
+
+before y after solo existen para meter contenido
