@@ -1,0 +1,12 @@
+cada uno tiene su refencia de donde se movera
+
+position: relative
+    *su referencia es su posicion inicial
+    *Aplicar position: relative a un elemento no modifica e nasa su geometria(layout)
+    *Al moverlo, con las propiedades offset, reserva su espacio
+
+position: absolute
+    *pierde su posicion en el flujo y no reserva su espacio
+    *si tenia dimensiones fijas se mantiene. si mantiene dimensiones automaticas, se ajustaran a su contenido
+    *Su referencia es su ancestro posicionado mas cercano
+    * 

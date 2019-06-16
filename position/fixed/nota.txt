@@ -1,0 +1,4 @@
+position: fixed (no se mueve con el scroll), es relativo al viewport
+    se ignora el flujo
+    sus dimensiones automaticas se restringen a su contenido
+    hara que siempre se mantenga en el viewport

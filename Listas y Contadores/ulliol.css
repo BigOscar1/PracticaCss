@@ -1,0 +1,34 @@
+body {
+    font-size: 2em;
+  }
+  
+  .chapters {
+    counter-reset: chapters;
+  }
+  
+  .chapter {
+    counter-increment: chapter;
+  }
+  
+  .chapter::before {
+    content: counter(chapter) '. ';
+    color: red;
+  }
+  
+  ol {
+    counter-reset: list;
+  }
+  
+  li {
+    counter-increment: list;
+    list-style: none;
+  }
+  
+  li::before {
+    content: counters(list, '.') '. ';
+    color: red;
+    font-size: 0.75em;
+    margin-right: .5em;
+  }
+  
+  /* He apagado el micro por un momento, mucha bulla afuera */

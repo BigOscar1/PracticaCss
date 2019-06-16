@@ -1,0 +1,29 @@
+body {
+    margin-top: 3rem; /*es por la posicion del haeder*/
+    font-size: 1.5em;
+}
+
+.main-header {
+    background-color: yellow;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 3rem;
+    left: 0;
+}
+
+h1 {
+    top:0;
+}
+
+.logo {
+    height: 2rem;
+    display: block;    
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+:target {
+    padding-top: 4rem;
+}
+
