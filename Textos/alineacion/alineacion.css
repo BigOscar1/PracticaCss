@@ -36,6 +36,11 @@ p {
     white-space: pre;   /*Respetara los saltos de linea del texto*/
 }
 
+.texto-vertical {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
 .desbordamiento{
     height: 160px;
     width: 160px;
